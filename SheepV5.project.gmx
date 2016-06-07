@@ -113,7 +113,9 @@
     <sprite>sprites\spr_silver</sprite>
     <sprite>sprites\spr_bronze</sprite>
     <sprite>sprites\spr_board</sprite>
+    <sprite>sprites\spr_board_new</sprite>
     <sprite>sprites\spr_title</sprite>
+    <sprite>sprites\spr_steak</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -227,6 +229,11 @@
     <room>rooms\rm_jeremy_3</room>
     <room>rooms\rm_jeremy_4</room>
     <room>rooms\rm_jeremy_5</room>
+    <room>rooms\Jack_6</room>
+    <room>rooms\Jack_7</room>
+    <room>rooms\Jack_8</room>
+    <room>rooms\Jack_9</room>
+    <room>rooms\Jack_10</room>
     <room>rooms\the_end</room>
   </rooms>
   <help>
