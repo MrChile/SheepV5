@@ -185,6 +185,7 @@
     <object>objects\obj_tute</object>
     <object>objects\obj_hook_tute</object>
     <object>objects\obj_belt</object>
+    <object>objects\obj_belt_left</object>
     <object>objects\obj_sheep_dropper</object>
     <object>objects\obj_medal_death</object>
     <object>objects\obj_medal_time</object>
@@ -221,6 +222,11 @@
     <room>rooms\Jack_3</room>
     <room>rooms\Jack_4</room>
     <room>rooms\Jack_5</room>
+    <room>rooms\rm_jeremy_1</room>
+    <room>rooms\rm_jeremy_2</room>
+    <room>rooms\rm_jeremy_3</room>
+    <room>rooms\rm_jeremy_4</room>
+    <room>rooms\rm_jeremy_5</room>
     <room>rooms\the_end</room>
   </rooms>
   <help>
