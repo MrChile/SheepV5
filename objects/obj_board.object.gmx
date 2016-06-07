@@ -25,11 +25,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>audio_stop_all();
+            <string>//audio_pause_all();
+//audio_play_sound(snd_feeling_good,0,true);
 audio_play_sound(snd_board,1,false);
-audio_play_sound(snd_feeling_good,0,true);
 down = false
 up = false
+
 </string>
           </argument>
         </arguments>
@@ -65,6 +66,29 @@ if(y&lt;300 &amp;&amp; down = true)
     up = true
 
 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="5">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>audio_stop_sound(snd_feeling_good);
 </string>
           </argument>
         </arguments>

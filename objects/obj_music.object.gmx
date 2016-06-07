@@ -25,29 +25,41 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>switch(room)
+            <string>///Music
+
+switch(room)
 {
     case main_menu: audio_stop_all(); audio_play_sound(snd_menu, 0, true); break;
-    case rm_1: audio_stop_all(); audio_play_sound(snd_myst,0,true); break;
-    case rm_2: audio_stop_all(); audio_play_sound(snd_myst,0,true); break;
-    case rm_3: audio_stop_all(); audio_play_sound(snd_myst,0,true); break;
-    case rm_4: audio_stop_all(); audio_play_sound(snd_myst,0,true); break;
-    case rm_5: audio_stop_all(); audio_play_sound(snd_iron_horse,0,true); break;
+    case rm_1: audio_stop_all(); audio_play_sound(snd_myst, 0, true); break;
+    case rm_2: audio_resume_sound(snd_myst); break;
+    case rm_3: audio_resume_all(); break;
+    case rm_4: audio_resume_all(); break;
+    case rm_5: audio_resume_all(); break;
     case rm_6: audio_stop_all(); audio_play_sound(snd_iron_horse,0,true); break;
-    case rm_7: audio_stop_all(); audio_play_sound(snd_iron_horse,0,true); break;
-    case rm_8: audio_stop_all(); audio_play_sound(snd_iron_horse,0,true); break;
-    case rm_9: audio_stop_all(); audio_play_sound(snd_amazing_plan,0,true); break;
-    case rm_10: audio_stop_all(); audio_play_sound(snd_amazing_plan,0,true); break;
+    case rm_7: audio_resume_all(); break;
+    case rm_8: audio_resume_all(); break;
+    case rm_9: audio_resume_all(); break;
+    case rm_10: audio_resume_all(); break;
     case rm_11: audio_stop_all(); audio_play_sound(snd_amazing_plan,0,true); break;
-    case rm_12: audio_stop_all(); audio_play_sound(snd_amazing_plan,0,true); break;
-    case rm_13: audio_stop_all(); audio_play_sound(snd_fun,0,true); break;
-    case rm_14: audio_stop_all(); audio_play_sound(snd_fun,0,true); break;
-    case rm_15: audio_stop_all(); audio_play_sound(snd_fun,0,true); break;
+    case rm_12: audio_resume_all(); break;
+    case rm_13: audio_resume_all(); break;
+    case rm_14: audio_resume_all(); break;
+    case rm_15: audio_resume_all(); break;
     case rm_16: audio_stop_all(); audio_play_sound(snd_fun,0,true); break;
-    case rm_17: audio_stop_all(); audio_play_sound(snd_umlaut,0,true); break;
-    case rm_18: audio_stop_all(); audio_play_sound(snd_umlaut,0,true); break;
-    case rm_19: audio_stop_all(); audio_play_sound(snd_umlaut,0,true); break;
-    case rm_20: audio_stop_all(); audio_play_sound(snd_umlaut,0,true); break;
+    case rm_17: audio_resume_all(); break;
+    case rm_18: audio_resume_all(); break;
+    case rm_19: audio_resume_all(); break;
+    case rm_20: audio_resume_all(); break;
+    case Jack_1: audio_stop_all(); audio_play_sound(snd_umlaut,0,true); break;
+    case Jack_2: audio_resume_all(); break;
+    case Jack_3: audio_resume_all(); break;
+    case Jack_4: audio_resume_all(); break;
+    case Jack_5: audio_resume_all(); break;
+    case rm_jeremy_1: audio_stop_all(); audio_play_sound(snd_iron_horse, 0, true); break;
+    case rm_jeremy_2: audio_resume_all(); break;
+    case rm_jeremy_3: audio_resume_all(); break;
+    case rm_jeremy_4: audio_resume_all(); break;
+    case rm_jeremy_5: audio_resume_all(); break;
     case the_end: audio_stop_all(); audio_play_sound(snd_menu, 0, true); break;
 }
 </string>
