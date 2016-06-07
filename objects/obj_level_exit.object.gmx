@@ -93,6 +93,11 @@ switch(room)
     case Jack_8: gold_death = 0; silver_death = 1; gold_time = 7; silver_time = 16; break;
     case Jack_9: gold_death = 1; silver_death = 2; gold_time = 12; silver_time = 25; break;
     case Jack_10: gold_death = 0; silver_death = 3; gold_time = 11; silver_time = 20; break;
+    case Jack_11: gold_death = 3; silver_death = 6; gold_time = 20; silver_time = 30; break;
+    case Jack_12: gold_death = 1; silver_death = 4; gold_time = 15; silver_time = 25; break;
+    case Jack_13: gold_death = 3; silver_death = 6; gold_time = 35; silver_time = 45; break;
+    case Jack_14: gold_death = 0; silver_death = 3; gold_time = 12; silver_time = 30; break;
+    case Jack_15: gold_death = 3; silver_death = 6; gold_time = 15; silver_time = 30; break;
 
 
 }
