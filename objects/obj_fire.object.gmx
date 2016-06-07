@@ -131,9 +131,11 @@ draw_set_blend_mode(bm_normal);
 if(place_meeting(x,y,obj_player)){
     with(obj_player){
         audio_play_sound(snd_fire_hit, 0, false);
+        instance_create(x,y,obj_steak);
         x = xstart;
         y = ystart;
         global.death_count += 1;
+        
     }
 }
 

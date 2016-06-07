@@ -196,6 +196,7 @@
     <object>objects\obj_levelNum</object>
     <object>objects\timer_death_count</object>
     <object>objects\obj_title</object>
+    <object>objects\obj_steak</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\main_menu</room>
